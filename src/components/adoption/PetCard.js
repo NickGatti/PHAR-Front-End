@@ -91,7 +91,7 @@ class PetCard extends Component {
                   </tbody>
                   <Questions />
                   <Col xs="12" sm="12" md="12" lg="12" xl="12">
-                    <Form action='https://guarded-bastion-60433.herokuapp.com/questions' method='POST'>
+                    <Form >
                       <FormGroup>
                         <Label for="submitQuestion">Question</Label>
                         <Input type="question" name="question" id="submitQuestion" placeholder="Ask a Question" />
