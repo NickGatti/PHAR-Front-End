@@ -1,7 +1,10 @@
 {
   "name": "phar-frontend",
   "version": "1.0.0",
-  "private": false,
+  "private": true,
+  "engines": {
+    "node": "8.7.0"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "bootswatch": "^4.0.0",
